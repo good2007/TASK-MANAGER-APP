@@ -1,0 +1,87 @@
+# Task Manager App
+
+> A clean, thoughtful task management web app to help you stay productive every day.
+
+[![Status](https://img.shields.io/badge/status-active-success.svg)](https://example.com)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Built with](https://img.shields.io/badge/built%20with-HTML%2fCSS%2fJS-orange.svg)](#)
+
+---
+
+## ✨ Demo (Optional)
+Live preview: __https://your-demo-url.com__
+
+---
+
+## 🧰 Overview
+A responsive and accessible task manager with core features for creating, organizing, and tracking workflow. Ideal for daily planning, personal objectives, and small team coordination.
+
+## 🚀 Key Features
+- Add new tasks with title, description, deadline, and priority
+- Edit task details and task state (complete / incomplete)
+- Delete tasks and clear completed tasks
+- Filter by status (All, Active, Completed)
+- Search tasks in real time
+- Persist tasks in local browser storage
+- Responsive UI for mobile/tablet/desktop
+
+## 📁 Project Structure
+- `index.html`: Main application markup
+- `styles.css`: Styling and visual layout
+- `script.js`: Application logic and behavior
+- `README`: Project documentation
+
+## 🛠️ Tech Stack
+- HTML5
+- CSS3 (Flexbox/Grid)
+- Vanilla JavaScript (ES6+)
+
+---
+
+## ⚙️ Installation
+1. Clone repo
+   - `git clone https://github.com/yourusername/task-manager-app.git`
+2. Enter folder
+   - `cd task-manager-app`
+3. (Optional) Install dependencies if setup with packages
+   - `npm install`
+4. Launch app
+   - `npm start` (if using a local dev server)
+   - or open `index.html` in browser
+
+## ▶️ Usage
+- Add tasks with required fields
+- Click task text to toggle completed state
+- Use priority filter to highlight must-do items
+- Use search box to find tasks instantly
+
+---
+
+## 🧩 Configuration
+No dedicated config required for local usage. LocalStorage is used to keep data across browser sessions.
+
+---
+
+## 🧪 Testing
+No automated tests included in this version. Add your preferred test runner (e.g., Jest/Puppeteer) if needed.
+
+---
+
+## 🤝 Contributing
+1. Fork repository
+2. Create a branch (`git checkout -b feature/new-feature`)
+3. Commit changes (`git commit -m 'Add feature'`)
+4. Push to branch (`git push origin feature/new-feature`)
+5. Open pull request
+
+---
+
+## 📜 License
+Released under the MIT License.
+
+---
+
+## 📬 Contact
+For feedback, issues, or enhancements:
+- GitHub: [yourusername](https://github.com/yourusername)
+- Email: your.email@example.com

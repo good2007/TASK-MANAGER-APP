@@ -124,9 +124,33 @@
             color: #999;
             padding: 20px;
         }
+
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #682185;
+            font-size: 14px;
+        }
+
+            header {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                background: #333;
+                color: white;
+                padding: 15px 0;
+                text-align: center;
+                font-size: 18px;
+                z-index: 1000;
+            }
     </style>
 </head>
 <body>
+    <section>
+    <header>TASK MANAGER APP BY GOODRICK</header>
+    </section>
+    <section>
     <div class="container">
         <h1>📝Goodrick's Task Manager</h1>
         
@@ -139,6 +163,9 @@
             <li class="empty-message">No tasks yet. Add one to get started!</li>
         </ul>
     </div>
+    </section>
+    
+    <section>
 
     <script>
         const taskInput = document.getElementById('taskInput');
